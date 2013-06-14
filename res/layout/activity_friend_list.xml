@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sorry_no_items_to_display"
+        android:textAppearance="?android:attr/textAppearanceMedium" />     
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+<LinearLayout  
+    android:layout_width="match_parent"
+    android:orientation="horizontal" 
+     android:layout_height="40dp"
+      >
+    
+    
+      <Button
+        android:id="@+id/fndListCloseBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+        <Button
+        android:id="@+id/fndListOkBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+    
+    </LinearLayout>
+</LinearLayout>

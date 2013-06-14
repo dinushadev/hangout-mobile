@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item android:id="@+id/main_new" android:title="@string/hang_new" android:icon="@android:drawable/ic_menu_add" android:showAsAction="ifRoom|withText" /><item android:id="@+id/main_preferences"
+          android:title="@string/preferences" android:icon="@android:drawable/ic_menu_preferences"  android:showAsAction="ifRoom|withText"/>
+      
+     <item android:id="@+id/main_search" android:title="@string/search" android:icon="@android:drawable/ic_menu_search"  android:showAsAction="ifRoom|withText" />
+     <item android:id="@+id/main_exit" android:title="@string/exit" android:icon="@android:drawable/ic_menu_close_clear_cancel"  android:showAsAction="ifRoom|withText" ></item>
+     <item android:id="@+id/main_friends" android:title="@string/my_friends"  android:showAsAction="ifRoom|withText"></item>
+       <item android:id="@+id/set_my_time" android:title="@string/edit_my_time"  android:showAsAction="ifRoom|withText"></item>
+    
+</menu>

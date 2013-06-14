@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "-7dp" >
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+            android:textOn="Sun"
+            android:textOff="Sun"
+            android:text="Sun" />
+        
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+            android:textOn="Mon"
+            android:textOff="Mon"
+            android:text="Mon" />
+        
+           <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="fill_parent"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+           android:textOn="Tue"
+            android:textOff="Tue"
+            android:layout_height="wrap_content"
+            android:text="Tue" />
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="fill_parent"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+           android:textOn="Wed"
+            android:textOff="Wed"
+            android:layout_height="wrap_content"
+            android:text="Wed" />
+           <ToggleButton
+            android:id="@+id/toggleButton5"
+            android:layout_width="fill_parent"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+           android:textOn="Thu"
+            android:textOff="Thu"
+            android:layout_height="wrap_content"
+            android:text="Thu" />
+            <ToggleButton
+            android:id="@+id/toggleButton6"
+            android:layout_width="fill_parent"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+           android:textOn="Fri"
+            android:textOff="Fri"
+            android:layout_height="wrap_content"
+            android:text="Thu" />
+    
+    </TableRow>
+
+
+    
+   <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_marginTop= "-7dp" 
+           android:layout_height="30dp">
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+            android:textOn="Sun"
+            android:textOff="Sun"
+            android:text="Sun" />
+        
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+            android:textOn="Mon"
+            android:textOff="Mon"
+            android:text="Mon" />
+        
+           <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="fill_parent"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+           android:textOn="Tue"
+            android:textOff="Tue"
+            android:layout_height="wrap_content"
+            android:text="Tue" />
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="fill_parent"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+           android:textOn="Wed"
+            android:textOff="Wed"
+            android:layout_height="wrap_content"
+            android:text="Wed" />
+           <ToggleButton
+            android:id="@+id/toggleButton5"
+            android:layout_width="fill_parent"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+           android:textOn="Thu"
+            android:textOff="Thu"
+            android:layout_height="wrap_content"
+            android:text="Thu" />
+            <ToggleButton
+            android:id="@+id/toggleButton6"
+            android:layout_width="fill_parent"
+             android:layout_weight="0.2"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginLeft="-5dp"
+           android:textOn="Fri"
+            android:textOff="Fri"
+            android:layout_height="wrap_content"
+            android:text="Thu" />
+    
+    </TableRow>
+
+
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sorry_no_hangout_to_display"
+        android:textAppearance="?android:attr/textAppearanceMedium" />     
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
